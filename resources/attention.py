@@ -4,7 +4,9 @@ import torch
 class AttentionModel(torch.nn.Module):
     def __init__(self, input_dim, hidden_dim, output_dim):
         super().__init__()
-        self.attention = torch.nn.MultiheadAttention(embed_dim=input_dim, num_heads=1, batch_first=True)
+        self.attention = torch.nn.MultiheadAttention(
+            embed_dim=input_dim, num_heads=1, batch_first=True
+        )
         self.output = torch.nn.Linear(hidden_dim, output_dim)
 
     def forward(self, q, k, v):
