@@ -1,0 +1,71 @@
+ [
+  {
+    "queries": [
+      {
+        "type": "node_type",
+        "nodeType": "op_and_layer_nodes"
+      },
+      {
+        "type": "regex",
+        "queryRegex": "Attention",
+        "matchTypes": [
+          "title"
+        ]
+      }
+    ],
+    "nodeType": "op_nodes",
+    "styles": {
+      "node_bg_color": {
+        "id": "node_bg_color",
+        "value": "#6ce364"
+      }
+    },
+    "version": "v2"
+  },
+  {
+    "queries": [
+      {
+        "type": "node_type",
+        "nodeType": "op_and_layer_nodes"
+      },
+      {
+        "type": "regex",
+        "queryRegex": "RMS|Simplified",
+        "matchTypes": [
+          "title"
+        ]
+      }
+    ],
+    "nodeType": "op_nodes",
+    "styles": {
+      "node_bg_color": {
+        "id": "node_bg_color",
+        "value": "#cd91ed"
+      }
+    },
+    "version": "v2"
+  },
+  {
+    "queries": [
+      {
+        "type": "node_type",
+        "nodeType": "op_and_layer_nodes"
+      },
+      {
+        "type": "regex",
+        "queryRegex": "RotaryEmbedding",
+        "matchTypes": [
+          "title"
+        ]
+      }
+    ],
+    "nodeType": "op_nodes",
+    "styles": {
+      "node_bg_color": {
+        "id": "node_bg_color",
+        "value": "#feb562"
+      }
+    },
+    "version": "v2"
+  }
+]
