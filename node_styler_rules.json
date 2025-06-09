@@ -7,7 +7,7 @@
       },
       {
         "type": "regex",
-        "queryRegex": "Attention",
+        "queryRegex": "RMS|Simplified",
         "matchTypes": [
           "title"
         ]
@@ -17,7 +17,11 @@
     "styles": {
       "node_bg_color": {
         "id": "node_bg_color",
-        "value": "#6ce364"
+        "value": "#cd91ed"
+      },
+      "node_border_color": {
+        "id": "node_border_color",
+        "value": "#ffffff"
       }
     },
     "version": "v2"
@@ -30,7 +34,7 @@
       },
       {
         "type": "regex",
-        "queryRegex": "RMS|Simplified",
+        "queryRegex": "Attention",
         "matchTypes": [
           "title"
         ]
@@ -40,7 +44,11 @@
     "styles": {
       "node_bg_color": {
         "id": "node_bg_color",
-        "value": "#cd91ed"
+        "value": "#6ce364"
+      },
+      "node_border_color": {
+        "id": "node_border_color",
+        "value": "#ffffff"
       }
     },
     "version": "v2"
@@ -64,6 +72,10 @@
       "node_bg_color": {
         "id": "node_bg_color",
         "value": "#feb562"
+      },
+      "node_border_color": {
+        "id": "node_border_color",
+        "value": "#ffffff"
       }
     },
     "version": "v2"
